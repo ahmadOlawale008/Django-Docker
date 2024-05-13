@@ -25,7 +25,7 @@ DEBUG = config("DEBUG", cast=bool)
 
 ALLOWED_HOSTS = []
 
-
+import os
 # Application definition
 
 INSTALLED_APPS = [
